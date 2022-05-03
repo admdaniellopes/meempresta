@@ -1,0 +1,181 @@
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+
+.menuprincipal{
+	font-size: 12px;
+	height: 30px;
+}
+
+.menulog{
+	font-size: 12px;
+	height: 15px;
+}
+
+p{
+	font-size: 10px;
+}	
+
+h1{
+	font-size: 15px;
+}
+
+h2{
+	font-size: 12.5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.figure{
+	margin: 0px;
+}
+
+.knock{
+	margin: auto auto auto auto;
+}
+
+.menu2 a{
+        text-decoration: none;
+        color: black;
+        position:relative;
+	float:left;
+        display:block;
+}
+
+.menu{
+	list-style:none;
+	float:left;
+}
+
+.menu li{
+	position:relative;
+	float:left;
+}
+
+.menu li a{
+	color: rgba(75,75,75,1); 
+	text-decoration:none; 
+	padding: 15px 15px; 
+	display:block;
+}
+
+.menu li a:hover{
+	background:rgba(100,100,100,1);
+	color:rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 0px 15px;
+	text-shadow:0px 0px 5px rgba(255,255,255,1);
+}
+
+.menu li ul{
+	position:absolute;
+	top:50px;
+	left:0px;
+	background-color:rgba(200,200,200,1);
+	display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+.menu li ul li{
+	display:block;
+	width:150px;
+}
+
+.logbox{
+        left: 300px;
+	position: relative;
+	top: 10px;
+	font-size: 12px;
+	height: 30px;
+	color: rgba(75,75,75,1)
+}
+
+.alerta{
+    color: red;
+    text-align: center;
+}
+
+.ibox{
+	background-color: rgba(215,215,215,1);
+	border: 1px solid;
+	border-color: rgba(150,150,150,1)
+}
+
+.ibotton{
+	background-color: rgba(215,215,215,1);
+	border: 1px solid;
+	border-color: rgba(150,150,150,1)
+}
+
+.ibotton:hover{
+	color: rgba(255,255,255,1);
+	background-color: rgba(100,100,100,1);
+	border: 1px solid;
+	border-color: rgba(150,150,150,1)
+}
+
+.section{
+	width: 1200px;
+}
+
+.tabela td{
+	padding: 5px;
+	border: 1pt solid;
+	border-color: rgba(25,25,25,1);
+}
+
+.tabelacoisas th{
+        padding: 5px;
+	border: 1pt solid;
+	border-color: rgba(25,25,25,1);
+    	font-size: 15px;
+}
+
+.tabelacoisas td{
+    	padding: 5px;
+	border: 1pt solid;
+	border-color: rgba(25,25,25,1);
+}
+
+.searchstufftable{
+        font-size: 12.5px;
+        padding: 5px;
+}
+
+.additemtable td{
+        font-size: 12.5px;
+        padding: 5px;
+}
+
+.requestpassword{
+        padding: 20px;
+}
+
+.footer{
+        padding-top: 5px;
+	position: absolute;
+	width: 1200px;
+	text-align: center;
+	height:20px;
+	color: rgba(200,200,200,1);
+	background-color: rgba(150,150,150,1);
+}
+
+.fieldset{
+    border: 0px;
+    margin: 10px 10px 10px 0px;
+    width: 1170px;
+}
+
+.formsuporte{
+	font-size: 15px;
+}
+
+.hello{
+    position: absolute;
+    left: 900px;
+}
